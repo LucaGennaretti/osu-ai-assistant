@@ -1,0 +1,54 @@
+
+
+sha1.c
+Source: https://raw.githubusercontent.com/clibs/sha1/d9ae30f34095107ece9dceb224839f0dc2f9c1c7/sha1.c
+
+SHA-1 in C
+By Steve Reid <steve@edmweb.com>
+100% Public Domain
+
+========================================================================
+
+src/external/bson/bson.c
+Source: https://raw.githubusercontent.com/realm/realm-core/3aba889bd9c93c91ea7906b9ec4b60a5c5dcab45/src/external/bson/bson.c
+
+/*
+ * Copyright 2013 MongoDB, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+========================================================================
+
+src/external/s2/s2cellid.h
+Source: https://raw.githubusercontent.com/realm/realm-core/3aba889bd9c93c91ea7906b9ec4b60a5c5dcab45/src/external/s2/s2cellid.h
+
+// Copyright 2005 Google Inc. All Rights Reserved.
+
+========================================================================
+
+src/external/s2/base/logging.h
+Source: https://raw.githubusercontent.com/realm/realm-core/3aba889bd9c93c91ea7906b9ec4b60a5c5dcab45/src/external/s2/base/logging.h
+
+// Copyright 2010 Google
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.

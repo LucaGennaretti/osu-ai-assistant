@@ -1,0 +1,2285 @@
+{
+  "format_version": 1,
+  "prepared_date": "2026-10-06",
+  "target": "win-x64",
+  "executable_sha256": "69b00012989b3ed6e028a328ab420bbc2b1d526559376aad2831539378195c88",
+  "runtime": {
+    "id": "Microsoft.NETCore.App.Runtime.win-x64",
+    "version": "10.0.12",
+    "license": "MIT",
+    "license_files": [
+      "licenses/DotNet-LICENSE.txt",
+      "licenses/DotNet-THIRD-PARTY-NOTICES.txt"
+    ]
+  },
+  "packages": [
+    {
+      "id": "Microsoft.Data.Sqlite",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://docs.microsoft.com/dotnet/standard/data/sqlite/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [],
+      "license_files": [
+        "licenses/Microsoft.Data.Sqlite-LICENSE.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Data.Sqlite.Core",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://docs.microsoft.com/dotnet/standard/data/sqlite/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [],
+      "license_files": [
+        "licenses/Microsoft.Data.Sqlite-LICENSE.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Abstractions",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Binder",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.CommandLine",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.FileExtensions",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Json",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.UserSecrets",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyInjection",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Diagnostics",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Diagnostics.Abstractions",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.FileProviders.Abstractions",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.FileProviders.Physical",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.FileSystemGlobbing",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Hosting",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Hosting.Abstractions",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Logging",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Abstractions",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Configuration",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Console",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Debug",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.EventLog",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.EventSource",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Options",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Options.ConfigurationExtensions",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "Microsoft.Extensions.Primitives",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    },
+    {
+      "id": "MongoDB.Bson",
+      "version": "2.21.0",
+      "license": "LICENSE.md",
+      "license_type": "file",
+      "license_url": "https://aka.ms/deprecateLicenseUrl",
+      "copyright": "Copyright © 2010-present MongoDB Inc.",
+      "authors": "MongoDB Inc.",
+      "project": "https://www.mongodb.com/docs/drivers/csharp/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/mongodb/mongo-csharp-driver.git",
+        "commit": "5a9c3311e158910b88195f290e6d4b1b2715d2b2"
+      },
+      "licenses": [
+        "LICENSE.md"
+      ],
+      "license_files": [
+        "licenses/MongoDB.Bson-LICENSE.md"
+      ]
+    },
+    {
+      "id": "Realm",
+      "version": "20.1.0",
+      "license": "Apache-2.0",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/Apache-2.0",
+      "copyright": "Copyright © 2025 Realm Inc.",
+      "authors": "Realm",
+      "project": "https://github.com/realm/realm-dotnet",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/realm/realm-dotnet",
+        "commit": "370ce596a0cf5e992b717bb199d70e55391ff2b9"
+      },
+      "licenses": [],
+      "license_files": [
+        "licenses/Realm-LICENSE.txt",
+        "licenses/RealmDotNet-Third-Party-Notices.md",
+        "licenses/RealmCore-LICENSE.txt",
+        "licenses/RealmCore-THIRD-PARTY-NOTICES.txt",
+        "licenses/RealmCore-additional-attributions.txt"
+      ]
+    },
+    {
+      "id": "Remotion.Linq",
+      "version": "2.2.0",
+      "license": "Apache-2.0",
+      "license_type": "expression",
+      "license_url": "http://opensource.org/licenses/Apache-2.0",
+      "copyright": "Copyright (c) rubicon IT GmbH, www.rubicon.eu - Licensed under Apache License, Version 2.0",
+      "authors": "rubicon IT GmbH",
+      "project": "http://relinq.codeplex.com",
+      "repository": {},
+      "licenses": [],
+      "license_files": [
+        "licenses/Apache-2.0.txt",
+        "licenses/Remotion.Linq-Attribution.txt"
+      ]
+    },
+    {
+      "id": "SharpCompress",
+      "version": "0.50.4",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "Copyright (c) 2025  Adam Hathcock",
+      "authors": "Adam Hathcock",
+      "project": "https://github.com/adamhathcock/sharpcompress",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/adamhathcock/sharpcompress",
+        "commit": "c083c6efd843a844b0c8f7878787360e815be781"
+      },
+      "licenses": [],
+      "license_files": [
+        "licenses/SharpCompress-LICENSE.txt",
+        "licenses/SharpCompress-embedded-attributions.txt",
+        "licenses/SharpCompress-unRAR-license.txt",
+        "licenses/Microsoft-Public-License.txt",
+        "licenses/Apache-2.0.txt"
+      ]
+    },
+    {
+      "id": "SQLitePCLRaw.bundle_e_sqlite3",
+      "version": "2.1.12",
+      "license": "Apache-2.0",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/Apache-2.0",
+      "copyright": "Copyright 2014-2024 SourceGear, LLC",
+      "authors": "Eric Sink",
+      "project": "",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ericsink/SQLitePCL.raw"
+      },
+      "licenses": [],
+      "license_files": [
+        "licenses/Apache-2.0.txt",
+        "licenses/SQLitePCLRaw-NOTICE.txt"
+      ]
+    },
+    {
+      "id": "SQLitePCLRaw.core",
+      "version": "2.1.12",
+      "license": "Apache-2.0",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/Apache-2.0",
+      "copyright": "Copyright 2014-2024 SourceGear, LLC",
+      "authors": "Eric Sink",
+      "project": "",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ericsink/SQLitePCL.raw"
+      },
+      "licenses": [],
+      "license_files": [
+        "licenses/Apache-2.0.txt",
+        "licenses/SQLitePCLRaw-NOTICE.txt"
+      ]
+    },
+    {
+      "id": "SQLitePCLRaw.lib.e_sqlite3",
+      "version": "2.1.12",
+      "license": "Apache-2.0",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/Apache-2.0",
+      "copyright": "Copyright 2014-2024 SourceGear, LLC",
+      "authors": "Eric Sink",
+      "project": "",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ericsink/SQLitePCL.raw"
+      },
+      "licenses": [],
+      "license_files": [
+        "licenses/Apache-2.0.txt",
+        "licenses/SQLitePCLRaw-NOTICE.txt"
+      ]
+    },
+    {
+      "id": "SQLitePCLRaw.provider.e_sqlite3",
+      "version": "2.1.12",
+      "license": "Apache-2.0",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/Apache-2.0",
+      "copyright": "Copyright 2014-2024 SourceGear, LLC",
+      "authors": "Eric Sink",
+      "project": "",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ericsink/SQLitePCL.raw"
+      },
+      "licenses": [],
+      "license_files": [
+        "licenses/Apache-2.0.txt",
+        "licenses/SQLitePCLRaw-NOTICE.txt"
+      ]
+    },
+    {
+      "id": "System.Diagnostics.EventLog",
+      "version": "10.0.12",
+      "license": "MIT",
+      "license_type": "expression",
+      "license_url": "https://licenses.nuget.org/MIT",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "authors": "Microsoft",
+      "project": "https://dot.net/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "licenses": [
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_files": [
+        "licenses/DotNet-LICENSE.txt",
+        "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt"
+      ]
+    }
+  ],
+  "bundle_files": [
+    {
+      "name": "osu-ai-kb.dll",
+      "size": 66048,
+      "sha256": "9bf54f5cbcc081146485245205029aabd7071ad635872527baa1310b330b8af3"
+    },
+    {
+      "name": "osu-ai-kb.runtimeconfig.json",
+      "size": 374,
+      "sha256": "5f8fa34afd7f3e5a94948944eeda37e8d1bfa294aaf4001c9c0f24d1ed83a2c7"
+    },
+    {
+      "name": "Microsoft.CSharp.dll",
+      "size": 980776,
+      "sha256": "2000912f2fc52e0c64ed893d79f4e7b143502540fb7170b5ae5fcea7099ba431"
+    },
+    {
+      "name": "Microsoft.VisualBasic.Core.dll",
+      "size": 1193768,
+      "sha256": "2666b24eb6e295476b44abd057ea250fd5957db9c1c7adee6a223a747ddfe3d2"
+    },
+    {
+      "name": "Microsoft.VisualBasic.dll",
+      "size": 17192,
+      "sha256": "e192508adde6a758138a5a8e28998dccb64e7f45eaf30d8ab3564f87749028b1"
+    },
+    {
+      "name": "Microsoft.Win32.Primitives.dll",
+      "size": 15656,
+      "sha256": "6c21472b0ae2f9b484a97614fad5485a22f18f9f19ee1adb9ceb3ed8ddb072d7"
+    },
+    {
+      "name": "Microsoft.Win32.Registry.dll",
+      "size": 116520,
+      "sha256": "76849cfde4369f3ae93e28261fe5e1010dbf1332f7da95c98543cba9b03961c0"
+    },
+    {
+      "name": "System.AppContext.dll",
+      "size": 15144,
+      "sha256": "d9dd9fa44e019f27172d6b2662e2b6038f48c270912ac8aae53d4d909da7e9be"
+    },
+    {
+      "name": "System.Buffers.dll",
+      "size": 15144,
+      "sha256": "a1a35f5524e2f831d08ca55f702fbddcb8c6dfecd264f0f563d81a1c8b8280bd"
+    },
+    {
+      "name": "System.Collections.Concurrent.dll",
+      "size": 231248,
+      "sha256": "082f4bc0da1141eb65111b6da633d75624adfb7bb067d7ee90c5622c8b30885b"
+    },
+    {
+      "name": "System.Collections.Immutable.dll",
+      "size": 976680,
+      "sha256": "b527dd7b2beb82c22aa39787298cbeb33f3eac9eb9b83a0f0271353421db28db"
+    },
+    {
+      "name": "System.Collections.NonGeneric.dll",
+      "size": 104232,
+      "sha256": "aa4d5216d066c91cb489f63c6cbfcaf1f47b6e74e070db45639d3460454fc60b"
+    },
+    {
+      "name": "System.Collections.Specialized.dll",
+      "size": 104272,
+      "sha256": "e31af1f866e880844e027be59f545b9a6b34108e0b0680ebe3fbc19a53070819"
+    },
+    {
+      "name": "System.Collections.dll",
+      "size": 296744,
+      "sha256": "df6f2037eabee28100184e92f7536427ba2f086c1110629804d466b124bc4d54"
+    },
+    {
+      "name": "System.ComponentModel.Annotations.dll",
+      "size": 198480,
+      "sha256": "e3be2d35d81e6475c64110cfc099895b71df22c8b46a18c2d7c76a913b8ba903"
+    },
+    {
+      "name": "System.ComponentModel.DataAnnotations.dll",
+      "size": 16720,
+      "sha256": "d40e8c7062e6b9ce11ba83eab3d26be0eec8066b99970ea88b8e87fb75f411bd"
+    },
+    {
+      "name": "System.ComponentModel.EventBasedAsync.dll",
+      "size": 46888,
+      "sha256": "cc84fe814ef5e58271d83193e328f8ec220efd4696d90af9a7c4690c10451495"
+    },
+    {
+      "name": "System.ComponentModel.Primitives.dll",
+      "size": 79656,
+      "sha256": "1e2451184c287409ea25acde3c90f25950bf34d16458a6e52a94ca4292434f62"
+    },
+    {
+      "name": "System.ComponentModel.TypeConverter.dll",
+      "size": 767784,
+      "sha256": "10dae312a6697718f8ce3dfcdb17d6ae4b74687c765d74d50de8a8e69e08f5e7"
+    },
+    {
+      "name": "System.ComponentModel.dll",
+      "size": 30544,
+      "sha256": "e3b6f75864ee944898540937c1f300e04f44a1b2729516f0bbf948589a8b14b2"
+    },
+    {
+      "name": "System.Configuration.dll",
+      "size": 19240,
+      "sha256": "3952a72e1f18774f16952b46c20e80ed2bc601a06eca01f33fa924c738022a9c"
+    },
+    {
+      "name": "System.Console.dll",
+      "size": 169808,
+      "sha256": "3b85daf02a3d9ed99b84bb1c639fe8b1ced46d8d157fa56f525f6b8c5be43b3e"
+    },
+    {
+      "name": "System.Core.dll",
+      "size": 23336,
+      "sha256": "ac23faf1b37fa49f1b117baad951a65609e799a6e669a6df06d3552677e0c086"
+    },
+    {
+      "name": "System.Data.Common.dll",
+      "size": 2770728,
+      "sha256": "66bdd62047ee460e2ce2c33d15dd1173ac97997b2745864a905179594f821acc"
+    },
+    {
+      "name": "System.Data.DataSetExtensions.dll",
+      "size": 15656,
+      "sha256": "aeeae0755c8c7f6747765cdf82fa43182e320e97f2035e3a0a19f21905e6c113"
+    },
+    {
+      "name": "System.Data.dll",
+      "size": 25424,
+      "sha256": "49f52958a2a6e461d0fd7a47e54a199eb263c69ecfcc0fc684b73b5918ebf466"
+    },
+    {
+      "name": "System.Diagnostics.Contracts.dll",
+      "size": 16208,
+      "sha256": "6c05cacd9b61b08ae75f2d783cc402b0b5fc848e3d68c29c10b93897cc083e8b"
+    },
+    {
+      "name": "System.Diagnostics.Debug.dll",
+      "size": 15656,
+      "sha256": "8b160ffe7518588bf64e13c01c6dcb2ef504d64f38bbf0f198d31e7b698db92c"
+    },
+    {
+      "name": "System.Diagnostics.DiagnosticSource.dll",
+      "size": 501544,
+      "sha256": "6267c1bd1bdf2bdd4b5748b885b0adcda10f18697adfea8488a19a009ad44fdb"
+    },
+    {
+      "name": "System.Diagnostics.FileVersionInfo.dll",
+      "size": 46928,
+      "sha256": "e94f158142e93834dec3100bde3313935517d549ff36c65819a06d3104dec427"
+    },
+    {
+      "name": "System.Diagnostics.Process.dll",
+      "size": 329552,
+      "sha256": "51a57fbe918f8b68930c090792b718fc0850ea12da869d50b97a3796af29a740"
+    },
+    {
+      "name": "System.Diagnostics.StackTrace.dll",
+      "size": 46888,
+      "sha256": "8f6397c1e2ba9b8b8bfa317962151b5035049ce8d6b3575e5027a0d0eeacc797"
+    },
+    {
+      "name": "System.Diagnostics.TextWriterTraceListener.dll",
+      "size": 67368,
+      "sha256": "1bf165cee916a854e1150f489e4348ce94755359d5fcdcc0bc2bbbe6a7102bdd"
+    },
+    {
+      "name": "System.Diagnostics.Tools.dll",
+      "size": 15144,
+      "sha256": "841c5e2b6c171fa9aaff0fc6295f3fbc93dc5dcab44118b62f1c942bb674aff2"
+    },
+    {
+      "name": "System.Diagnostics.TraceSource.dll",
+      "size": 141096,
+      "sha256": "8445c7f1bbaae6cffde60e2c9a8753faaa5100255fbe31d0a1927d9d9bb7f194"
+    },
+    {
+      "name": "System.Diagnostics.Tracing.dll",
+      "size": 16208,
+      "sha256": "9563d5eec35f94d13a5e62eaa9535dbe0e9ea474f055da132fb8af46b0b01263"
+    },
+    {
+      "name": "System.Drawing.Primitives.dll",
+      "size": 132944,
+      "sha256": "17585b32ca91bac8ccff2ef1c6ddf62ee9ea5efc552928c3a9d1b868394246e9"
+    },
+    {
+      "name": "System.Drawing.dll",
+      "size": 20304,
+      "sha256": "585a8da9952d715f8de7a7b1879b59d68ff8608b92f6ed1c5f0e1d251180d3c6"
+    },
+    {
+      "name": "System.Dynamic.Runtime.dll",
+      "size": 16168,
+      "sha256": "c0eac30c791db8c1a2b50b61c50d029f4ddd0eadfdd35433745001688a3e7466"
+    },
+    {
+      "name": "System.Formats.Asn1.dll",
+      "size": 239440,
+      "sha256": "a163fe5f96d1689f1bc1ac531b38c3aba95792ac7dd52231d325d658947fbcfd"
+    },
+    {
+      "name": "System.Formats.Tar.dll",
+      "size": 272168,
+      "sha256": "44c9984f269a158915195fd32007f22c3bb692dcfeb933cda8ea45a3ac6cd1ce"
+    },
+    {
+      "name": "System.Globalization.Calendars.dll",
+      "size": 15656,
+      "sha256": "e0f3f3f6e4acc7b6755782fed5cb075ecf70beee4fc5d404579ae99bc0883ef2"
+    },
+    {
+      "name": "System.Globalization.Extensions.dll",
+      "size": 15144,
+      "sha256": "be0390557cc72078a7217cf94fd44b9ab66aa30838c00a92aa78c62469c44aa0"
+    },
+    {
+      "name": "System.Globalization.dll",
+      "size": 15696,
+      "sha256": "66902cffd057673b4b77aa68faf80d33ffa4c94510e61db2a067943cc53b7702"
+    },
+    {
+      "name": "System.IO.Compression.Brotli.dll",
+      "size": 83752,
+      "sha256": "0a59a95787ee15784d73079fdd5dc555b78659a6c560b6cbbf0d7452e638df89"
+    },
+    {
+      "name": "System.IO.Compression.FileSystem.dll",
+      "size": 15184,
+      "sha256": "4aeec2c0189f73ba8122f05c0d759008ddae1a8873b167cc8a558d53f2af80e1"
+    },
+    {
+      "name": "System.IO.Compression.ZipFile.dll",
+      "size": 100176,
+      "sha256": "2da76eb281740be485b5637da8c60fe0ce12bc2848d1a1a81ce144fa74313e18"
+    },
+    {
+      "name": "System.IO.Compression.dll",
+      "size": 419624,
+      "sha256": "c942747f84b730887090f5e0cf86d164c0ee402e524dce2750e06a6df48513fb"
+    },
+    {
+      "name": "System.IO.FileSystem.AccessControl.dll",
+      "size": 104232,
+      "sha256": "f7f9ed6cdab35274711e9345266784ec332ae8040db184d141c70e7941fbbec5"
+    },
+    {
+      "name": "System.IO.FileSystem.DriveInfo.dll",
+      "size": 55120,
+      "sha256": "0a7f3dd2fb6147a3fc046aeac8501d764effe5a3d8cfa56d2b244aa50b874b98"
+    },
+    {
+      "name": "System.IO.FileSystem.Primitives.dll",
+      "size": 15144,
+      "sha256": "d3b21b8b38e48c6b4d1cb5cfe9adfe4abad7b3353601febd3c7e4027f9ef9c6b"
+    },
+    {
+      "name": "System.IO.FileSystem.Watcher.dll",
+      "size": 87848,
+      "sha256": "8ab1704e4bd171056ec5a11e886d5199d05a641c6d0233c53d4766bf30328dd3"
+    },
+    {
+      "name": "System.IO.FileSystem.dll",
+      "size": 15656,
+      "sha256": "c251f33b29382c47b773d907463edd9fe978a06e39efd5670ef3b3b1d4f8c2b7"
+    },
+    {
+      "name": "System.IO.IsolatedStorage.dll",
+      "size": 87848,
+      "sha256": "2272a8bde18ed0e7c9e54ece9b849b9be76c90b978909d2b2fc94cf0ccbce427"
+    },
+    {
+      "name": "System.IO.MemoryMappedFiles.dll",
+      "size": 83752,
+      "sha256": "6e8b281ecb2f0f5e7aad3980f61d8812caa6b37884737f542f95410a76663e0e"
+    },
+    {
+      "name": "System.IO.Pipelines.dll",
+      "size": 190248,
+      "sha256": "ee9f0fd6c659f50799afd103c6ed9c5e408967e28dfa059bddf4b0a3fd2557dd"
+    },
+    {
+      "name": "System.IO.Pipes.AccessControl.dll",
+      "size": 15656,
+      "sha256": "1102f25a6e88f2fae81e4cd3628d8ef826f847b9c9b6a4d32ff8b37e0300da35"
+    },
+    {
+      "name": "System.IO.Pipes.dll",
+      "size": 165712,
+      "sha256": "3804f9992861122e60990b0765d0b50b33cdc2e4d89d26d9dbf8641d1d0134a2"
+    },
+    {
+      "name": "System.IO.UnmanagedMemoryStream.dll",
+      "size": 15696,
+      "sha256": "ad6a5f859589e1951103a00f45566da079cf87bd8b03f0c6ad985a6f39f19c5a"
+    },
+    {
+      "name": "System.IO.dll",
+      "size": 15656,
+      "sha256": "388400ccb189b819d6ec5f1ef70710a39641d93ed5b870fc9324866b75dfb78b"
+    },
+    {
+      "name": "System.Linq.AsyncEnumerable.dll",
+      "size": 1292072,
+      "sha256": "925208e8ac40ac3f7b988aba6ccbbb58adac38ad1876a7d97ee137be6c21a653"
+    },
+    {
+      "name": "System.Linq.Expressions.dll",
+      "size": 3639080,
+      "sha256": "8830f4a6a6982f53cfbb54f992858ee36b4994a6ff6e6078c39627e77bef282f"
+    },
+    {
+      "name": "System.Linq.Parallel.dll",
+      "size": 775976,
+      "sha256": "aa6068e3d8f6b2e492cc63dcaad6b02942edbae445cb2b88c24f1850b25c49f5"
+    },
+    {
+      "name": "System.Linq.Queryable.dll",
+      "size": 182056,
+      "sha256": "b3b3a9c1b87a51dacd46a3f9ec392c5d05e449152d44d6bd495df0994350e2fa"
+    },
+    {
+      "name": "System.Linq.dll",
+      "size": 698192,
+      "sha256": "284d38945b6e92e847129bd28af458b19818d0f2181f79882888ab2003f4c519"
+    },
+    {
+      "name": "System.Memory.dll",
+      "size": 161576,
+      "sha256": "f8f9d38efd6b0de30954d6bf1f353e9617bfb36d3d245c013a3b12be9f6bd88a"
+    },
+    {
+      "name": "System.Net.Http.Json.dll",
+      "size": 128848,
+      "sha256": "a9fe81ba3c048f9977e0099800eefd570a49be723c555725da57ba797c92b4e0"
+    },
+    {
+      "name": "System.Net.Http.dll",
+      "size": 1746768,
+      "sha256": "b98ed0cb80dd54c33fc049f33af5448710752155bbd5cc8cbcd932e01f066801"
+    },
+    {
+      "name": "System.Net.HttpListener.dll",
+      "size": 534312,
+      "sha256": "3dfe11fb30c5f84c911d9562be6c2037113cd8976ef2def3550ac415ae58955b"
+    },
+    {
+      "name": "System.Net.Mail.dll",
+      "size": 481064,
+      "sha256": "b585a55ee67c80d7f02a84d50d626d279c7aa77fd3e38206b434bd20c181eedc"
+    },
+    {
+      "name": "System.Net.NameResolution.dll",
+      "size": 124712,
+      "sha256": "e786c0940f5322f0ad6e8e34e7b582e5b050df0fb2230329325307e61bfd994c"
+    },
+    {
+      "name": "System.Net.NetworkInformation.dll",
+      "size": 157520,
+      "sha256": "7e8791833eb2d0aea77b119fed3cab8bf501f6a553155cc1c4e5b1c02f65593b"
+    },
+    {
+      "name": "System.Net.Ping.dll",
+      "size": 91984,
+      "sha256": "06bb307343db955a312634d00ba5e097cf5168a901284437592c28d780804e33"
+    },
+    {
+      "name": "System.Net.Primitives.dll",
+      "size": 210728,
+      "sha256": "4dbb41a178ef013a898327152eccd146228dd2eb83859b9bb36078333b41f0f1"
+    },
+    {
+      "name": "System.Net.Quic.dll",
+      "size": 358224,
+      "sha256": "af5b52cdee62d014af677c411530a3fde5c1c368adecb8f83dcfe9246e8bbe73"
+    },
+    {
+      "name": "System.Net.Requests.dll",
+      "size": 374568,
+      "sha256": "ed82d9d0b7942b2b02c5744a4591fbe2316879618adfc5660c9f111f814155f2"
+    },
+    {
+      "name": "System.Net.Security.dll",
+      "size": 665424,
+      "sha256": "a78bd713e807729f15b0e085c67fd6cbfefa85736a2618512d4ff1212759eba5"
+    },
+    {
+      "name": "System.Net.ServerSentEvents.dll",
+      "size": 83752,
+      "sha256": "c0b1944020d0e5688b90fba9f29209e367674e29d2020f700c302994d5417eda"
+    },
+    {
+      "name": "System.Net.ServicePoint.dll",
+      "size": 15144,
+      "sha256": "84fa83cd96e62fda02991b8a8e99fa1c7b3ac08807b04f7486a896cfe6b4a760"
+    },
+    {
+      "name": "System.Net.Sockets.dll",
+      "size": 530216,
+      "sha256": "645c56d637ce15976998119e50722a911315682ce141b4aab98874ce1b063f3a"
+    },
+    {
+      "name": "System.Net.WebClient.dll",
+      "size": 165672,
+      "sha256": "defa7bbf90c77ed01d6add53f678e4adfbcf97f3b1152affec06e652d327f1a2"
+    },
+    {
+      "name": "System.Net.WebHeaderCollection.dll",
+      "size": 63312,
+      "sha256": "74d66f776b4c15936a7b887f47ceb8bf277dbe82e71a78dd3ea5d02502b081e7"
+    },
+    {
+      "name": "System.Net.WebProxy.dll",
+      "size": 42832,
+      "sha256": "408e3daabb3f42b4f1b72a1e1def38f12ba58eb9d23dca620086819cf7484195"
+    },
+    {
+      "name": "System.Net.WebSockets.Client.dll",
+      "size": 104232,
+      "sha256": "f308a69b9ee1ac982f53d1d94374f4972a7e3c700742901ff7c2bbfb570019d2"
+    },
+    {
+      "name": "System.Net.WebSockets.dll",
+      "size": 243496,
+      "sha256": "c014a074d408c71011e26eac69be85003a852cfe115e8608bb5d4fd70536eb2e"
+    },
+    {
+      "name": "System.Net.dll",
+      "size": 17192,
+      "sha256": "481b38c912f8779b3510cd00f079e45096ea22b6defdaab66780d5ac3ae6986a"
+    },
+    {
+      "name": "System.Numerics.Vectors.dll",
+      "size": 15656,
+      "sha256": "a9a980ee33ed0c798a5e1960c4557521f465ac9e0987dfd2c3049d53b1f2fa5a"
+    },
+    {
+      "name": "System.Numerics.dll",
+      "size": 15184,
+      "sha256": "35adc9360421b3b7a3d50399cb2c651c160158d7e8c302907acbce5f61f4a4f7"
+    },
+    {
+      "name": "System.ObjectModel.dll",
+      "size": 79656,
+      "sha256": "2179bb19f335b4fcacd0994ad2ccfdac6840deff09c7889debfe9dbb5b88a3e6"
+    },
+    {
+      "name": "System.Private.CoreLib.dll",
+      "size": 16033576,
+      "sha256": "1125acc8106c43fc8bad2d203c4c4485df6182d292846c2fff415c1040c54678"
+    },
+    {
+      "name": "System.Private.DataContractSerialization.dll",
+      "size": 2062120,
+      "sha256": "8c07a5333c4e938cad8ac8f24b5965121bc0622442a352cbe81c58f17c2349a8"
+    },
+    {
+      "name": "System.Private.Uri.dll",
+      "size": 255824,
+      "sha256": "b15c84d2120e1ec9612c66ba59bc3d7e67d841e2bce7b7d0478cb212537539b4"
+    },
+    {
+      "name": "System.Private.Xml.Linq.dll",
+      "size": 390952,
+      "sha256": "c832b73de9783e6929ca5ff4863fc313e13ef7cfb5965c52587c4f77f6e037a7"
+    },
+    {
+      "name": "System.Private.Xml.dll",
+      "size": 7788328,
+      "sha256": "d71e72a7a9de324352edd281a46466b51bd0bdd2831b1573f8d3bae8bd2dd4a6"
+    },
+    {
+      "name": "System.Reflection.DispatchProxy.dll",
+      "size": 75600,
+      "sha256": "bf93a361c0bba8497889c9f7713add5968ba39394f9e6bda27e86294c6c43560"
+    },
+    {
+      "name": "System.Reflection.Emit.ILGeneration.dll",
+      "size": 15656,
+      "sha256": "6b42ddd05b0ca1c7342d73ea9f401fe588044215d65c67b756deb780f0894a26"
+    },
+    {
+      "name": "System.Reflection.Emit.Lightweight.dll",
+      "size": 15656,
+      "sha256": "d2724a2b7b46146877ec1f6e400c49ea05f84bdd31f3bba52ae139ee68a4f779"
+    },
+    {
+      "name": "System.Reflection.Emit.dll",
+      "size": 309032,
+      "sha256": "09059981bbeea0fdc5df589be5d7e3937d57e22bec4d78ceb492c587926fc238"
+    },
+    {
+      "name": "System.Reflection.Extensions.dll",
+      "size": 15144,
+      "sha256": "ceb1b81e1eb488d87bd43d16dc54450b2a78e0b653c44c988aae2a20abc162bc"
+    },
+    {
+      "name": "System.Reflection.Metadata.dll",
+      "size": 1156904,
+      "sha256": "82973e772017944a0548e445f30757595d95fe99e1f5c4a446df8c4db04b1c18"
+    },
+    {
+      "name": "System.Reflection.Primitives.dll",
+      "size": 15656,
+      "sha256": "c2bbd885d03da5e880667c228ac1f56a5f3a72ea37d43f010ada000adc33da28"
+    },
+    {
+      "name": "System.Reflection.TypeExtensions.dll",
+      "size": 42792,
+      "sha256": "7cac73ed746ce05a4a2f1e61dd52d41322ecc6ba84cfec463380f49487031459"
+    },
+    {
+      "name": "System.Reflection.dll",
+      "size": 16168,
+      "sha256": "95059346d6271dd6d0322cc321e5fb8cceab662f550c67aee7615059e41739bb"
+    },
+    {
+      "name": "System.Resources.Reader.dll",
+      "size": 15144,
+      "sha256": "20bdb5d302b5e28f6042c9f281cfa3ae2f2358544cc40783052fe5abf6aa859b"
+    },
+    {
+      "name": "System.Resources.ResourceManager.dll",
+      "size": 15696,
+      "sha256": "f709eb5cf16e26679782784c428825019785fcc7085562092425d4999bece03d"
+    },
+    {
+      "name": "System.Resources.Writer.dll",
+      "size": 50984,
+      "sha256": "684836486b9ba2817efa3099118860d259fd16db0c4c0533d42cad8c6c165b62"
+    },
+    {
+      "name": "System.Runtime.CompilerServices.Unsafe.dll",
+      "size": 15184,
+      "sha256": "6e685ec0477b21a688cd38bfcafc673888cdf186c99df3c96fab352e96d6fdc8"
+    },
+    {
+      "name": "System.Runtime.CompilerServices.VisualC.dll",
+      "size": 30504,
+      "sha256": "5fd85d3d7b47a921bdf48bf938c6615a49a4a3d493e1ea199f1b997c709618f4"
+    },
+    {
+      "name": "System.Runtime.Extensions.dll",
+      "size": 17704,
+      "sha256": "3d7b517d4fd89ee58c53e0f642cc9be42e7a8669b51a85e861dafe118067cbfd"
+    },
+    {
+      "name": "System.Runtime.Handles.dll",
+      "size": 15656,
+      "sha256": "985457a3e6a67e96a445ee0fb69b2d58bcdadc4c964253fb63e2d5061a36b050"
+    },
+    {
+      "name": "System.Runtime.InteropServices.JavaScript.dll",
+      "size": 50984,
+      "sha256": "5ba32bcde2d72362db2d6e02763ece79fa35bc878b50493e956ce594307e997f"
+    },
+    {
+      "name": "System.Runtime.InteropServices.RuntimeInformation.dll",
+      "size": 15656,
+      "sha256": "c26d9f94329422bd000f28f6c65fdc162bf9397a6d29e418a189d4ca49c5c3ec"
+    },
+    {
+      "name": "System.Runtime.InteropServices.dll",
+      "size": 112464,
+      "sha256": "e5eb1679f3579c9141e2bb9dbdce62624a623f38d299805cc1de07bacd21841f"
+    },
+    {
+      "name": "System.Runtime.Intrinsics.dll",
+      "size": 17192,
+      "sha256": "b07694ec91f3a200acf0f8b37c6ce5fcf05126a9198ae156d839fa5ca8439dc5"
+    },
+    {
+      "name": "System.Runtime.Loader.dll",
+      "size": 15656,
+      "sha256": "9b9b2a4f0358d9146e76178ddb87d019be380c78baa7dac853493d45df089f03"
+    },
+    {
+      "name": "System.Runtime.Numerics.dll",
+      "size": 354128,
+      "sha256": "8ac94fb810c092a9297a903762e79a75ae07d7229d0721540c391f86d3d5d220"
+    },
+    {
+      "name": "System.Runtime.Serialization.Formatters.dll",
+      "size": 124712,
+      "sha256": "5e8e957c6b7a63132555ede5bcf5fe6a59934c83300e28074ec6e9845ecdd17f"
+    },
+    {
+      "name": "System.Runtime.Serialization.Json.dll",
+      "size": 15656,
+      "sha256": "2fd71e3545dab4fc89b3fe54d13a1142f26a0cf187ebe375b3f7fa210fcb2596"
+    },
+    {
+      "name": "System.Runtime.Serialization.Primitives.dll",
+      "size": 38696,
+      "sha256": "f96093940e64d8eead98c86de9773d3c9d12c2b033bc6b1312ac88398303fdf3"
+    },
+    {
+      "name": "System.Runtime.Serialization.Xml.dll",
+      "size": 16680,
+      "sha256": "eedb66ea2cd1a26cc45a46d6631209ccbec959af82208872a93b3ae52f189222"
+    },
+    {
+      "name": "System.Runtime.Serialization.dll",
+      "size": 17192,
+      "sha256": "d565fc261ca98cbd14833821f777860291e8a0f775de7aee91778a9f6647f6f4"
+    },
+    {
+      "name": "System.Runtime.dll",
+      "size": 44840,
+      "sha256": "76be53624f64b23d0249dfa0bbe85390086de7c44bfd490642ea86c6faaf44af"
+    },
+    {
+      "name": "System.Security.AccessControl.dll",
+      "size": 227112,
+      "sha256": "cdc304f9ddb32023adb8db8953e56711c9b64462e4341d0b62e87ccd19dc7b10"
+    },
+    {
+      "name": "System.Security.Claims.dll",
+      "size": 100176,
+      "sha256": "c53c8a7e95d8296f951872fdd2e6334d11c20bffd4322f1a088773bf9dcaa3c2"
+    },
+    {
+      "name": "System.Security.Cryptography.Algorithms.dll",
+      "size": 17232,
+      "sha256": "eb99ae7dbe058a1b015aba6769ce1f65155b7ff51ff9a7203fcf6d7cdea5fef7"
+    },
+    {
+      "name": "System.Security.Cryptography.Cng.dll",
+      "size": 16168,
+      "sha256": "7319f97896d92a7d0729cf28dc6c4d1f797c1520b656ee01a780eec726ec2c16"
+    },
+    {
+      "name": "System.Security.Cryptography.Csp.dll",
+      "size": 16208,
+      "sha256": "4002af141e9cb29875b677841adf64a9681e5672c2595492dcbc161460d4e121"
+    },
+    {
+      "name": "System.Security.Cryptography.Encoding.dll",
+      "size": 15656,
+      "sha256": "994494aec7760f40fade2264aa7c13eebae36360f0b1399a7134bb19c9d58fda"
+    },
+    {
+      "name": "System.Security.Cryptography.OpenSsl.dll",
+      "size": 15656,
+      "sha256": "1a8902bbad1b577a98bec62a8472105dc1e9a253e390f69fbe3d167e93206968"
+    },
+    {
+      "name": "System.Security.Cryptography.Primitives.dll",
+      "size": 15656,
+      "sha256": "194cccea9354bb248e44c954b5373f9069163f8f21524b3ee4b3185fe436bc15"
+    },
+    {
+      "name": "System.Security.Cryptography.X509Certificates.dll",
+      "size": 16680,
+      "sha256": "7439c3b90bc2ee49a9275b28ed29052b4d48b45999ac1b7d25593033b1bb8dd6"
+    },
+    {
+      "name": "System.Security.Cryptography.dll",
+      "size": 2549544,
+      "sha256": "e0a839a540e47343b53a936b32d91599a3470005228d50fd0b896f8bbdcc65b0"
+    },
+    {
+      "name": "System.Security.Principal.Windows.dll",
+      "size": 178000,
+      "sha256": "2311a3f92971de918943573dfb66e04e25c1d543663951eb24e8eb1a0dcd4251"
+    },
+    {
+      "name": "System.Security.Principal.dll",
+      "size": 15144,
+      "sha256": "1d3e351058be3a33214b23b308fe57f78cd6fd4d8fad448fc84cbbe7376129f9"
+    },
+    {
+      "name": "System.Security.SecureString.dll",
+      "size": 15696,
+      "sha256": "73aac97072b7deefa4de9647bf822162224f1452ad467841b989ff89d4d94595"
+    },
+    {
+      "name": "System.Security.dll",
+      "size": 18256,
+      "sha256": "d8efd304765e859369698efef9b3ca707defa8e142721fe5605d7a2de7d38375"
+    },
+    {
+      "name": "System.ServiceModel.Web.dll",
+      "size": 16680,
+      "sha256": "ce91013ee3a9a9d69a85e258f7749e6ece488295d7cb66f7c1079f2e8678fc5e"
+    },
+    {
+      "name": "System.ServiceProcess.dll",
+      "size": 15696,
+      "sha256": "63fc498c9d04e3c4345dfdb8016ad0639d54562dd7d8c707c072792c854df944"
+    },
+    {
+      "name": "System.Text.Encoding.CodePages.dll",
+      "size": 862032,
+      "sha256": "226e216e33c94ef7594bdffe670ba4dc5907151c113cb41ac9e9d570227e1765"
+    },
+    {
+      "name": "System.Text.Encoding.Extensions.dll",
+      "size": 15656,
+      "sha256": "8f51b9535db64fe027a40d6076200b1a6b0889bf05f62bb8e68c3eb083c7f113"
+    },
+    {
+      "name": "System.Text.Encoding.dll",
+      "size": 15696,
+      "sha256": "5e347db6b4f9b2746d50e1ac85be2d9cc7dc4038fde98ac4295bc7030c83cda9"
+    },
+    {
+      "name": "System.Text.Encodings.Web.dll",
+      "size": 124752,
+      "sha256": "d20431f20d992e71a4e82e5f25c822474e2f4097d8527972d3d78ea1f26e47c3"
+    },
+    {
+      "name": "System.Text.Json.dll",
+      "size": 1890128,
+      "sha256": "fa99f413be21ed5f484a09093fe5f0beba7de3062cf9cc9f847dbf8108dba55a"
+    },
+    {
+      "name": "System.Text.RegularExpressions.dll",
+      "size": 1034064,
+      "sha256": "060bcc88a688e687ff1404b83b5fb5cf17e19ec57f33d5b8a48ab494da83c134"
+    },
+    {
+      "name": "System.Threading.AccessControl.dll",
+      "size": 75560,
+      "sha256": "66d618b5522b3e4f7a3c7f2bd872fc378fa6f9bbdca3636854eb1a8cb948e631"
+    },
+    {
+      "name": "System.Threading.Channels.dll",
+      "size": 157480,
+      "sha256": "afc5deb3c32b3f64bced2025d0b01b316d41b691ebc6ccb1a2ec445ad4c15e39"
+    },
+    {
+      "name": "System.Threading.Overlapped.dll",
+      "size": 15696,
+      "sha256": "89fde15f8e520c4bcbc6cbfdceba2baed8670cdf52399a4cd7a21c6efb276c1a"
+    },
+    {
+      "name": "System.Threading.Tasks.Dataflow.dll",
+      "size": 472872,
+      "sha256": "a895b0c73d3a1afc4d89c1d9e445ed447af12864c25aad2c4cb7398ff50aa934"
+    },
+    {
+      "name": "System.Threading.Tasks.Extensions.dll",
+      "size": 15696,
+      "sha256": "f148e3a1414b7c2763ae21529ad79ad759f7cfd3c885256b64b0d2209dec2613"
+    },
+    {
+      "name": "System.Threading.Tasks.Parallel.dll",
+      "size": 132904,
+      "sha256": "6fa359bdbebb56be96339f244ed41658afcead5e010074da470df1115d1e7699"
+    },
+    {
+      "name": "System.Threading.Tasks.dll",
+      "size": 16680,
+      "sha256": "f80b21f7dae04377b73945456cabe25e2ab1f4b564095aed546c2aa571644567"
+    },
+    {
+      "name": "System.Threading.Thread.dll",
+      "size": 15696,
+      "sha256": "ce71949bb1ea67b686e799128582015ebf8758f1107e59e43f342ece3f662930"
+    },
+    {
+      "name": "System.Threading.ThreadPool.dll",
+      "size": 15656,
+      "sha256": "58fbc6c4b9c72087152fd0f0670a527098c00b0c19ba8d0979d3ca5ce07c6936"
+    },
+    {
+      "name": "System.Threading.Timer.dll",
+      "size": 15144,
+      "sha256": "9e4620846572f49aeb476aa99405071b4bbd0df4323e4e232787ed73642b1ee5"
+    },
+    {
+      "name": "System.Threading.dll",
+      "size": 83792,
+      "sha256": "6c32ed1bf8067e4169e8feddd15e6489b89d19d1c7aae1520a551b57745d0a60"
+    },
+    {
+      "name": "System.Transactions.Local.dll",
+      "size": 640808,
+      "sha256": "8d0283a311a16333ffb6f966d9765e4d8b866777ad99291a93b30db349a15bc4"
+    },
+    {
+      "name": "System.Transactions.dll",
+      "size": 16720,
+      "sha256": "56abfca0350c111d077b3d86a2469ea3da4fccc1871f7c51a8b4fdb664bb0ede"
+    },
+    {
+      "name": "System.ValueTuple.dll",
+      "size": 15696,
+      "sha256": "07a5347f6a597e5e0d72109efa1a525697e8c3f74fb0029005500f8ebbf9187a"
+    },
+    {
+      "name": "System.Web.HttpUtility.dll",
+      "size": 63272,
+      "sha256": "2cedef51b0a2c2b84240583339ecf2422c650e3388aa46f3494160b93b673887"
+    },
+    {
+      "name": "System.Web.dll",
+      "size": 15144,
+      "sha256": "bc260b3db247ad9a6e4a82a275da85c3691a41272cc745cb7eaefcf1f31cc817"
+    },
+    {
+      "name": "System.Windows.dll",
+      "size": 15696,
+      "sha256": "716eee98ceee87d38f0b301224462f8442aa793f4b1b9c3ffac315753320ab37"
+    },
+    {
+      "name": "System.Xml.Linq.dll",
+      "size": 15696,
+      "sha256": "ae04903b25717fa4695e7e63489091f0d461e791e0bd264c6c85250d668f540d"
+    },
+    {
+      "name": "System.Xml.ReaderWriter.dll",
+      "size": 21840,
+      "sha256": "8e48fed4d12bcffff01e8059caafb564697275797d2f5ec6823fdd82b87fe938"
+    },
+    {
+      "name": "System.Xml.Serialization.dll",
+      "size": 16208,
+      "sha256": "489694401c60905cb6dca8ef0bf738cb609cd45b337126a01c825b913086ba43"
+    },
+    {
+      "name": "System.Xml.XDocument.dll",
+      "size": 15696,
+      "sha256": "3ff858607de5146051498a7124ef983bea280d86e165f993516c6c26af81cfb5"
+    },
+    {
+      "name": "System.Xml.XPath.XDocument.dll",
+      "size": 30504,
+      "sha256": "5bcd27a7e93515b745993f6dda51391033883cb8a1a8a2e3dad5caed3548f0da"
+    },
+    {
+      "name": "System.Xml.XPath.dll",
+      "size": 15656,
+      "sha256": "c817b11c58d95fa942fbc62a4cfa8219e16dafa5641eb004cb2be424028ed5d8"
+    },
+    {
+      "name": "System.Xml.XmlDocument.dll",
+      "size": 15656,
+      "sha256": "a50b9b3a03596e36e73e7a7d54f4d018e8dcfaa7fe79e8cf900af8838ef3ec36"
+    },
+    {
+      "name": "System.Xml.XmlSerializer.dll",
+      "size": 17744,
+      "sha256": "0b7d057c2b5b2272e8d4096a755edfd96f3cf03ab9aaa3fef54b462bf48d517e"
+    },
+    {
+      "name": "System.Xml.dll",
+      "size": 23376,
+      "sha256": "277a84ba155fe7808a514f32694a8157ec9f0eeeef00ef9643e5250004054ff0"
+    },
+    {
+      "name": "System.dll",
+      "size": 50472,
+      "sha256": "ef135f0bda0c41e142fdbd67b93e5aa7911916cb250f7df302f4151a3bbfa380"
+    },
+    {
+      "name": "WindowsBase.dll",
+      "size": 16208,
+      "sha256": "0ec46a38f29a234b9a4d0ae9364c8322f661a47c831c5b948f2787b7ca12dbbd"
+    },
+    {
+      "name": "mscorlib.dll",
+      "size": 59728,
+      "sha256": "b698595367a7d4fa57ccacab73751fde0bb8f2415345c62cdfe7ced890da2c0c"
+    },
+    {
+      "name": "netstandard.dll",
+      "size": 100648,
+      "sha256": "3dc81dbc9dacd28261632c94410859eda24c2db50cd6c14309cbb2a434b50c57"
+    },
+    {
+      "name": "Microsoft.Data.Sqlite.dll",
+      "size": 177464,
+      "sha256": "b98d957462be432895b00dccca012d3c127e118d3d4262418014b92c7bbd66cf"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.dll",
+      "size": 44840,
+      "sha256": "c11796ac536b45b6028527bb9543607f6a5fca98b1784339226d68cb98705333"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.Abstractions.dll",
+      "size": 28456,
+      "sha256": "fb45286fa39f58b9e74b6346e31034e00031170169ee11fd0a15f99b6dca0b56"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.Binder.dll",
+      "size": 43304,
+      "sha256": "cdb9894a560842062c820e6335c445351bba26fa92e27b3e703ad07e977c8227"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.CommandLine.dll",
+      "size": 25424,
+      "sha256": "f1b5099d9105ae82076e53f8bc90f537a99004d27479bc9cf47712e6fc645711"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+      "size": 21800,
+      "sha256": "f9d770c991b8ccd6402aa072949843132c00566b026efaa95b63b117fa08517a"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.FileExtensions.dll",
+      "size": 28496,
+      "sha256": "bcbdc341e7134c620e6427ab136cd80d8686f63152e17276aa80c63afa6357ce"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.Json.dll",
+      "size": 27944,
+      "sha256": "91238276267ea5ad2986a9ba6aefbb6dc4643ccfd48167745ef963509407cf84"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.UserSecrets.dll",
+      "size": 26448,
+      "sha256": "c235c7a18dcd91cb045bdb98ff26d78afb06f7ed935b0f2cf1a1ada07ec20a55"
+    },
+    {
+      "name": "Microsoft.Extensions.DependencyInjection.dll",
+      "size": 95528,
+      "sha256": "2d0e268bf76b4ce36a55ebb2767354db956c6660de65d6cccfc35c957fb12cfc"
+    },
+    {
+      "name": "Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "size": 65872,
+      "sha256": "da04edc338d5aa0f38a1f5fa5ff3ee7e36affe9c961daf3ea724a428bd746bc6"
+    },
+    {
+      "name": "Microsoft.Extensions.Diagnostics.dll",
+      "size": 36136,
+      "sha256": "c2b5e806a61d40ce428764647e8c2bcad20283a3c87f081ff483923ed113aaa5"
+    },
+    {
+      "name": "Microsoft.Extensions.Diagnostics.Abstractions.dll",
+      "size": 31016,
+      "sha256": "623879199a4d98248dbce917e8b2c11b1f5eff24a01cb3b50d772461566dbad4"
+    },
+    {
+      "name": "Microsoft.Extensions.FileProviders.Abstractions.dll",
+      "size": 23336,
+      "sha256": "0ad9800893013d1e11c6b5afc6ef8a3fc0f14d38fa80bf5d63485fc70f848216"
+    },
+    {
+      "name": "Microsoft.Extensions.FileProviders.Physical.dll",
+      "size": 45392,
+      "sha256": "d57f6e1bcf47468a053696ea34b08e7d04edcc2681a5df586145835bd3f0db66"
+    },
+    {
+      "name": "Microsoft.Extensions.FileSystemGlobbing.dll",
+      "size": 47912,
+      "sha256": "56756b08cdffe4f47f4cba71c839375023930df5a16227cf7523085d9137d08e"
+    },
+    {
+      "name": "Microsoft.Extensions.Hosting.dll",
+      "size": 71976,
+      "sha256": "a78489eb8dbc8a906865a9fe54dbdc51a270ffd1d1f7c70569b20f3d6e51d029"
+    },
+    {
+      "name": "Microsoft.Extensions.Hosting.Abstractions.dll",
+      "size": 54056,
+      "sha256": "37c244f5685ca031be74a49bd23b2634588235f672f3a0b0b352ca8f6f6c3887"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.dll",
+      "size": 51536,
+      "sha256": "05b76234f2a5eb945b268ced706cb4d81446778ea6bd6910298b5e9111170b4a"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.Abstractions.dll",
+      "size": 66856,
+      "sha256": "7c242f8ca612fa1acc61f78efd5f8c89e01bd0bd47dc4ecc65e0e6e24f1a1668"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.Configuration.dll",
+      "size": 28456,
+      "sha256": "10465e68c4431d3fd790911b56fcd3cfca89dfb4b0ba75d1affd970892824b2f"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.Console.dll",
+      "size": 76072,
+      "sha256": "8564374e3dd121fedd5443a7755c8fe642d1408b45f73fc980b9d3fa99a47e79"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.Debug.dll",
+      "size": 19792,
+      "sha256": "6f8570299320cb4b7d732180e73fd4782e73d076b9031eded7c15c94f6609c33"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.EventLog.dll",
+      "size": 24872,
+      "sha256": "bb731e3abd585d6903609629b763b8837e652c2dd95492a59f85bbe76c7bc6a1"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.EventSource.dll",
+      "size": 34640,
+      "sha256": "0672b48143f7c93dc38a5734800b651c246304d65b49cbd3b766e406b04407cd"
+    },
+    {
+      "name": "Microsoft.Extensions.Options.dll",
+      "size": 65360,
+      "sha256": "b4ff561da6a7b11b68341f9fd32cab3f8b23cdd8b40332b9fd8bed73a9ee7de3"
+    },
+    {
+      "name": "Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+      "size": 21840,
+      "sha256": "460a4ac4770f3e134454076aaf02a4774a25a40e03e3cefbd5bc4c5f5a70af9f"
+    },
+    {
+      "name": "Microsoft.Extensions.Primitives.dll",
+      "size": 44880,
+      "sha256": "67642533eb87e8dadeb9026de59ff4b66cc9bf35c0cfbedfef7b79bc6d8b30bc"
+    },
+    {
+      "name": "MongoDB.Bson.dll",
+      "size": 509440,
+      "sha256": "88937339a3abcb5bc700beb7d380b684e73cbbd517329cbb7b4f576bcbe94c68"
+    },
+    {
+      "name": "Realm.dll",
+      "size": 362496,
+      "sha256": "22a77fbf9c97b002a81786838a90b5ff357cbb96dc553c9a324d966d8a5e7584"
+    },
+    {
+      "name": "Remotion.Linq.dll",
+      "size": 176640,
+      "sha256": "c3ec77926876c95d33770dc8eb05f0fa0556fd54c05147472593580b76bf2f2d"
+    },
+    {
+      "name": "SharpCompress.dll",
+      "size": 2461696,
+      "sha256": "f59f7159bc053f656f59ee15144f123de5d4b798c337083f3bfc6b0d30e846fd"
+    },
+    {
+      "name": "SQLitePCLRaw.batteries_v2.dll",
+      "size": 5120,
+      "sha256": "815ce410c9eab531dd219318e3ba16c5e38e83d361cfbbdbb4bbca222c497b0b"
+    },
+    {
+      "name": "SQLitePCLRaw.core.dll",
+      "size": 51200,
+      "sha256": "af340ac9eb9195795660d7fc1114f486b6ab63998f33176e2f24c8e0acb9aa84"
+    },
+    {
+      "name": "SQLitePCLRaw.provider.e_sqlite3.dll",
+      "size": 36864,
+      "sha256": "df996bcae63c2cabcfe8d4b9c5110eb39a2a4706178b07d875665391c6eb3995"
+    },
+    {
+      "name": "System.Diagnostics.EventLog.Messages.dll",
+      "size": 800552,
+      "sha256": "8f3def30d41d85e2bd87b2d2e7542d49d625f0b4d96a6dc9b03e0f49bd59b8ef"
+    },
+    {
+      "name": "System.Diagnostics.EventLog.dll",
+      "size": 176424,
+      "sha256": "075a7ac3b8732b34090fdf78be57956eeee276e113609d773797aa473191882a"
+    },
+    {
+      "name": "realm-wrappers.dll",
+      "size": 3879936,
+      "sha256": "bd3afcac36f4875593c92930f676604d4d15294e4f596cb92df44bf322e4d1ab"
+    },
+    {
+      "name": "e_sqlite3.dll",
+      "size": 1978880,
+      "sha256": "b7385d722c83fb52142a00477a726723745916d22a555711ee89834c1111fb2e"
+    },
+    {
+      "name": "OsuAiKb.Analytics.dll",
+      "size": 15360,
+      "sha256": "89e639b6e85b237314d46b4c2b057eb141d068025d374be13cad274ecb41716c"
+    },
+    {
+      "name": "OsuAiKb.Core.dll",
+      "size": 28160,
+      "sha256": "e893d05b7efd653ccdcb7a14b992362590d0eeb16817c9dbf110f70424aa2b12"
+    },
+    {
+      "name": "OsuAiKb.Infrastructure.Google.dll",
+      "size": 16384,
+      "sha256": "d483f081b5beca4b0783368e4e9ca083ec8ecc70f99c152898dbf23646b6a9ef"
+    },
+    {
+      "name": "OsuAiKb.Infrastructure.Lazer.dll",
+      "size": 15872,
+      "sha256": "704d718ea6c5dcb2bd480ae714e322f4cbd1d249511c1209b1f1ad905bb7e155"
+    },
+    {
+      "name": "OsuAiKb.Infrastructure.OsuApi.dll",
+      "size": 47104,
+      "sha256": "d8af87daf84f6e0cd630f4d139781868afcf277d72bfb01c69b8550935020f8d"
+    },
+    {
+      "name": "OsuAiKb.Infrastructure.Persistence.dll",
+      "size": 46592,
+      "sha256": "6a188af0a0da930b115e9fa4cbadccd0547713ec6b117fe99e882f852b7c9d00"
+    },
+    {
+      "name": "OsuAiKb.Replay.dll",
+      "size": 12288,
+      "sha256": "ea51780d80154ae6ecff9c6ca9380158a25a0727badb24bbb129f9804c91927a"
+    },
+    {
+      "name": "osu-ai-kb.deps.json",
+      "size": 62331,
+      "sha256": "2cfab2eacbc4f8536172004388926a8104f02eabdd26903ec313b1de1a8003e3"
+    }
+  ],
+  "package_asset_verification": [
+    {
+      "package": "Microsoft.Data.Sqlite.Core/10.0.12",
+      "asset": "lib/net8.0/Microsoft.Data.Sqlite.dll",
+      "bundled": true,
+      "sha256": "b98d957462be432895b00dccca012d3c127e118d3d4262418014b92c7bbd66cf"
+    },
+    {
+      "package": "Microsoft.Extensions.Configuration/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Configuration.dll",
+      "bundled": true,
+      "sha256": "c11796ac536b45b6028527bb9543607f6a5fca98b1784339226d68cb98705333"
+    },
+    {
+      "package": "Microsoft.Extensions.Configuration.Abstractions/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+      "bundled": true,
+      "sha256": "fb45286fa39f58b9e74b6346e31034e00031170169ee11fd0a15f99b6dca0b56"
+    },
+    {
+      "package": "Microsoft.Extensions.Configuration.Binder/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Configuration.Binder.dll",
+      "bundled": true,
+      "sha256": "cdb9894a560842062c820e6335c445351bba26fa92e27b3e703ad07e977c8227"
+    },
+    {
+      "package": "Microsoft.Extensions.Configuration.CommandLine/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Configuration.CommandLine.dll",
+      "bundled": true,
+      "sha256": "f1b5099d9105ae82076e53f8bc90f537a99004d27479bc9cf47712e6fc645711"
+    },
+    {
+      "package": "Microsoft.Extensions.Configuration.EnvironmentVariables/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+      "bundled": true,
+      "sha256": "f9d770c991b8ccd6402aa072949843132c00566b026efaa95b63b117fa08517a"
+    },
+    {
+      "package": "Microsoft.Extensions.Configuration.FileExtensions/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+      "bundled": true,
+      "sha256": "bcbdc341e7134c620e6427ab136cd80d8686f63152e17276aa80c63afa6357ce"
+    },
+    {
+      "package": "Microsoft.Extensions.Configuration.Json/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Configuration.Json.dll",
+      "bundled": true,
+      "sha256": "91238276267ea5ad2986a9ba6aefbb6dc4643ccfd48167745ef963509407cf84"
+    },
+    {
+      "package": "Microsoft.Extensions.Configuration.UserSecrets/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Configuration.UserSecrets.dll",
+      "bundled": true,
+      "sha256": "c235c7a18dcd91cb045bdb98ff26d78afb06f7ed935b0f2cf1a1ada07ec20a55"
+    },
+    {
+      "package": "Microsoft.Extensions.DependencyInjection/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.DependencyInjection.dll",
+      "bundled": true,
+      "sha256": "2d0e268bf76b4ce36a55ebb2767354db956c6660de65d6cccfc35c957fb12cfc"
+    },
+    {
+      "package": "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "bundled": true,
+      "sha256": "da04edc338d5aa0f38a1f5fa5ff3ee7e36affe9c961daf3ea724a428bd746bc6"
+    },
+    {
+      "package": "Microsoft.Extensions.Diagnostics/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Diagnostics.dll",
+      "bundled": true,
+      "sha256": "c2b5e806a61d40ce428764647e8c2bcad20283a3c87f081ff483923ed113aaa5"
+    },
+    {
+      "package": "Microsoft.Extensions.Diagnostics.Abstractions/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+      "bundled": true,
+      "sha256": "623879199a4d98248dbce917e8b2c11b1f5eff24a01cb3b50d772461566dbad4"
+    },
+    {
+      "package": "Microsoft.Extensions.FileProviders.Abstractions/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+      "bundled": true,
+      "sha256": "0ad9800893013d1e11c6b5afc6ef8a3fc0f14d38fa80bf5d63485fc70f848216"
+    },
+    {
+      "package": "Microsoft.Extensions.FileProviders.Physical/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.FileProviders.Physical.dll",
+      "bundled": true,
+      "sha256": "d57f6e1bcf47468a053696ea34b08e7d04edcc2681a5df586145835bd3f0db66"
+    },
+    {
+      "package": "Microsoft.Extensions.FileSystemGlobbing/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+      "bundled": true,
+      "sha256": "56756b08cdffe4f47f4cba71c839375023930df5a16227cf7523085d9137d08e"
+    },
+    {
+      "package": "Microsoft.Extensions.Hosting/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Hosting.dll",
+      "bundled": true,
+      "sha256": "a78489eb8dbc8a906865a9fe54dbdc51a270ffd1d1f7c70569b20f3d6e51d029"
+    },
+    {
+      "package": "Microsoft.Extensions.Hosting.Abstractions/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Hosting.Abstractions.dll",
+      "bundled": true,
+      "sha256": "37c244f5685ca031be74a49bd23b2634588235f672f3a0b0b352ca8f6f6c3887"
+    },
+    {
+      "package": "Microsoft.Extensions.Logging/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Logging.dll",
+      "bundled": true,
+      "sha256": "05b76234f2a5eb945b268ced706cb4d81446778ea6bd6910298b5e9111170b4a"
+    },
+    {
+      "package": "Microsoft.Extensions.Logging.Abstractions/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Logging.Abstractions.dll",
+      "bundled": true,
+      "sha256": "7c242f8ca612fa1acc61f78efd5f8c89e01bd0bd47dc4ecc65e0e6e24f1a1668"
+    },
+    {
+      "package": "Microsoft.Extensions.Logging.Configuration/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Logging.Configuration.dll",
+      "bundled": true,
+      "sha256": "10465e68c4431d3fd790911b56fcd3cfca89dfb4b0ba75d1affd970892824b2f"
+    },
+    {
+      "package": "Microsoft.Extensions.Logging.Console/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Logging.Console.dll",
+      "bundled": true,
+      "sha256": "8564374e3dd121fedd5443a7755c8fe642d1408b45f73fc980b9d3fa99a47e79"
+    },
+    {
+      "package": "Microsoft.Extensions.Logging.Debug/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Logging.Debug.dll",
+      "bundled": true,
+      "sha256": "6f8570299320cb4b7d732180e73fd4782e73d076b9031eded7c15c94f6609c33"
+    },
+    {
+      "package": "Microsoft.Extensions.Logging.EventLog/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Logging.EventLog.dll",
+      "bundled": true,
+      "sha256": "bb731e3abd585d6903609629b763b8837e652c2dd95492a59f85bbe76c7bc6a1"
+    },
+    {
+      "package": "Microsoft.Extensions.Logging.EventSource/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Logging.EventSource.dll",
+      "bundled": true,
+      "sha256": "0672b48143f7c93dc38a5734800b651c246304d65b49cbd3b766e406b04407cd"
+    },
+    {
+      "package": "Microsoft.Extensions.Options/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Options.dll",
+      "bundled": true,
+      "sha256": "b4ff561da6a7b11b68341f9fd32cab3f8b23cdd8b40332b9fd8bed73a9ee7de3"
+    },
+    {
+      "package": "Microsoft.Extensions.Options.ConfigurationExtensions/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+      "bundled": true,
+      "sha256": "460a4ac4770f3e134454076aaf02a4774a25a40e03e3cefbd5bc4c5f5a70af9f"
+    },
+    {
+      "package": "Microsoft.Extensions.Primitives/10.0.12",
+      "asset": "lib/net10.0/Microsoft.Extensions.Primitives.dll",
+      "bundled": true,
+      "sha256": "67642533eb87e8dadeb9026de59ff4b66cc9bf35c0cfbedfef7b79bc6d8b30bc"
+    },
+    {
+      "package": "MongoDB.Bson/2.21.0",
+      "asset": "lib/netstandard2.1/MongoDB.Bson.dll",
+      "bundled": true,
+      "sha256": "88937339a3abcb5bc700beb7d380b684e73cbbd517329cbb7b4f576bcbe94c68"
+    },
+    {
+      "package": "Realm/20.1.0",
+      "asset": "lib/net8.0/Realm.dll",
+      "bundled": true,
+      "sha256": "22a77fbf9c97b002a81786838a90b5ff357cbb96dc553c9a324d966d8a5e7584"
+    },
+    {
+      "package": "Realm/20.1.0",
+      "asset": "runtimes/win-x64/native/realm-wrappers.dll",
+      "bundled": true,
+      "sha256": "bd3afcac36f4875593c92930f676604d4d15294e4f596cb92df44bf322e4d1ab"
+    },
+    {
+      "package": "Remotion.Linq/2.2.0",
+      "asset": "lib/netstandard1.0/Remotion.Linq.dll",
+      "bundled": true,
+      "sha256": "c3ec77926876c95d33770dc8eb05f0fa0556fd54c05147472593580b76bf2f2d"
+    },
+    {
+      "package": "SharpCompress/0.50.4",
+      "asset": "lib/net10.0/SharpCompress.dll",
+      "bundled": true,
+      "sha256": "f59f7159bc053f656f59ee15144f123de5d4b798c337083f3bfc6b0d30e846fd"
+    },
+    {
+      "package": "SQLitePCLRaw.bundle_e_sqlite3/2.1.12",
+      "asset": "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll",
+      "bundled": true,
+      "sha256": "815ce410c9eab531dd219318e3ba16c5e38e83d361cfbbdbb4bbca222c497b0b"
+    },
+    {
+      "package": "SQLitePCLRaw.core/2.1.12",
+      "asset": "lib/netstandard2.0/SQLitePCLRaw.core.dll",
+      "bundled": true,
+      "sha256": "af340ac9eb9195795660d7fc1114f486b6ab63998f33176e2f24c8e0acb9aa84"
+    },
+    {
+      "package": "SQLitePCLRaw.lib.e_sqlite3/2.1.12",
+      "asset": "runtimes/win-x64/native/e_sqlite3.dll",
+      "bundled": true,
+      "sha256": "b7385d722c83fb52142a00477a726723745916d22a555711ee89834c1111fb2e"
+    },
+    {
+      "package": "SQLitePCLRaw.provider.e_sqlite3/2.1.12",
+      "asset": "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll",
+      "bundled": true,
+      "sha256": "df996bcae63c2cabcfe8d4b9c5110eb39a2a4706178b07d875665391c6eb3995"
+    },
+    {
+      "package": "System.Diagnostics.EventLog/10.0.12",
+      "asset": "runtimes/win/lib/net10.0/System.Diagnostics.EventLog.Messages.dll",
+      "bundled": true,
+      "sha256": "8f3def30d41d85e2bd87b2d2e7542d49d625f0b4d96a6dc9b03e0f49bd59b8ef"
+    },
+    {
+      "package": "System.Diagnostics.EventLog/10.0.12",
+      "asset": "runtimes/win/lib/net10.0/System.Diagnostics.EventLog.dll",
+      "bundled": true,
+      "sha256": "075a7ac3b8732b34090fdf78be57956eeee276e113609d773797aa473191882a"
+    }
+  ],
+  "license_sources": [
+    {
+      "file": "licenses/DotNet-LICENSE.txt",
+      "source": "NuGet Microsoft.NETCore.App.Runtime.win-x64 10.0.12 / LICENSE.TXT",
+      "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+    },
+    {
+      "file": "licenses/DotNet-THIRD-PARTY-NOTICES.txt",
+      "source": "NuGet Microsoft.NETCore.App.Runtime.win-x64 10.0.12 / THIRD-PARTY-NOTICES.TXT",
+      "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+    },
+    {
+      "file": "licenses/Microsoft.Data.Sqlite-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/dotnet/dotnet/95017c711e6afc1085133d440e42b4bd78155701/src/efcore/LICENSE.txt",
+      "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+    },
+    {
+      "file": "licenses/Apache-2.0.txt",
+      "source": "https://raw.githubusercontent.com/ericsink/SQLitePCL.raw/ca835d21508bff43121c65081035840ac5006c4c/LICENSE.TXT",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "file": "licenses/SQLitePCLRaw-NOTICE.txt",
+      "source": "https://raw.githubusercontent.com/ericsink/SQLitePCL.raw/ca835d21508bff43121c65081035840ac5006c4c/NOTICE.TXT",
+      "sha256": "485b276b3d2bfaa26df348e1e5c84df3648981e09b88531a6a53006f0705c24b"
+    },
+    {
+      "file": "licenses/Realm-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/realm/realm-dotnet/370ce596a0cf5e992b717bb199d70e55391ff2b9/LICENSE",
+      "sha256": "69849221bfb90053de2134ef5e6d540287b4b98062326492f1f96f5da685524b"
+    },
+    {
+      "file": "licenses/RealmDotNet-Third-Party-Notices.md",
+      "source": "https://raw.githubusercontent.com/realm/realm-dotnet/370ce596a0cf5e992b717bb199d70e55391ff2b9/Realm/Realm.Unity/Third%20Party%20Notices.md",
+      "sha256": "bcb1e675aa106c863c654a6cea071311ffd0983090f017c984593e79ee18311b"
+    },
+    {
+      "file": "licenses/RealmCore-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/realm/realm-core/3aba889bd9c93c91ea7906b9ec4b60a5c5dcab45/LICENSE",
+      "sha256": "69849221bfb90053de2134ef5e6d540287b4b98062326492f1f96f5da685524b"
+    },
+    {
+      "file": "licenses/RealmCore-THIRD-PARTY-NOTICES.txt",
+      "source": "https://raw.githubusercontent.com/realm/realm-core/3aba889bd9c93c91ea7906b9ec4b60a5c5dcab45/THIRD-PARTY-NOTICES",
+      "sha256": "e3b0c149c0cee5e161777ba79b178ebfb6a457fdf18158f7a054152d77a5bf56"
+    },
+    {
+      "file": "licenses/RealmCore-json-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/realm/realm-core/3aba889bd9c93c91ea7906b9ec4b60a5c5dcab45/src/external/json/LICENSE.MIT",
+      "sha256": "fb48e39a530553960c967289fd9e315ec603a17fd0aa7d8a809b1817e50984b2"
+    },
+    {
+      "file": "licenses/RealmCore-jsonsl-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/realm/realm-core/3aba889bd9c93c91ea7906b9ec4b60a5c5dcab45/src/external/jsonsl/LICENSE",
+      "sha256": "15464254d93f92f732fa6b2e0b9de6196b15597e96564e30f6a47115cca20aff"
+    },
+    {
+      "file": "licenses/RealmCore-mpark-LICENSE.md",
+      "source": "https://raw.githubusercontent.com/realm/realm-core/3aba889bd9c93c91ea7906b9ec4b60a5c5dcab45/src/external/mpark/LICENSE.md",
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+    },
+    {
+      "file": "licenses/RealmCore-s2-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/realm/realm-core/3aba889bd9c93c91ea7906b9ec4b60a5c5dcab45/src/external/s2/LICENSE-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "file": "licenses/RealmCore-SHA2-public-domain.md",
+      "source": "https://raw.githubusercontent.com/kalven/sha-2/0e9aebf34101c6aa89355fd76ac9cd886735dee1/README.md",
+      "sha256": "4422c2aa2b0d3a74ec0f5a772881ba9fd697ab4473b892eedf681cbab5ae27bf"
+    },
+    {
+      "file": "licenses/Remotion.Linq-Attribution.txt",
+      "source": "https://raw.githubusercontent.com/re-motion/Relinq/9be8fec0618f02a0e66edb058c390c8fa40d92a7/Apache-2.0.licenseheader",
+      "sha256": "b7220d0ae5c11e89e12c69cfea6f89c13f25d6ab18179c0604e1c75dfb003567"
+    },
+    {
+      "file": "licenses/MongoDB.Bson-LICENSE.md",
+      "source": "NuGet MongoDB.Bson 2.21.0 / LICENSE.md",
+      "sha256": "de556eb1415648cc1bba68d1e602d8a54e3e5b3592770df34d863449e8f0303c"
+    },
+    {
+      "file": "licenses/SharpCompress-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/adamhathcock/sharpcompress/c083c6efd843a844b0c8f7878787360e815be781/LICENSE.txt",
+      "sha256": "b7ca2b6174cee11afe41d78b48527e3d7659a4435c25019a4a5e072299a2f8ed"
+    },
+    {
+      "file": "licenses/SharpCompress-unRAR-license.txt",
+      "source": "https://raw.githubusercontent.com/adamhathcock/sharpcompress/c083c6efd843a844b0c8f7878787360e815be781/reference/unrar/license.txt",
+      "sha256": "6ecc1687808b7d66b24f874755abfed7464d9751ed0001cd4e8e5d9bf397ff8a"
+    },
+    {
+      "file": "licenses/Microsoft-Public-License.txt",
+      "source": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MS-PL.txt",
+      "sha256": "7a162b1da10f1c22db4c68f07bec4a8355259f8d4aab5b00a2b2bbd423d833dd"
+    },
+    {
+      "file": "licenses/RealmCore-additional-attributions.txt",
+      "source": "Upstream source license headers; URLs are in the file",
+      "sha256": "8580ad146c2d02b44a7696a3f7ff9103f28642308eccbbb5039ad4ad78a84a6d"
+    },
+    {
+      "file": "licenses/SharpCompress-embedded-attributions.txt",
+      "source": "License comments in SharpCompress c083c6efd843a844b0c8f7878787360e815be781",
+      "sha256": "ba7e1b8630b29e2a114b4d3f625bf597bf497df6a975c5b192e16c67d62321f6"
+    },
+    {
+      "file": "licenses/DotNet-packages-NOTICES-6d15e10a101c.txt",
+      "source": "NuGet Microsoft.Extensions.Configuration 10.0.12 / THIRD-PARTY-NOTICES.TXT",
+      "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+    }
+  ]
+}
